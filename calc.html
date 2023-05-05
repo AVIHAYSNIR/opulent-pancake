@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="calc.css">
+</head>
+<body>
+    <table>
+        <tr>
+            <td id="display" colspan="4">0</td>
+        </tr>
+        <tr>
+            <td class="operator">C</td>
+            <td class="operator"onclick="del()" >=></td>
+            <td class="operator">/</td>
+            <td class="operator">x</td>
+        </tr>
+        <tr>
+            <td class="db" onclick="numbers(7)">7</td>
+            <td class="db" onclick="numbers(8)">8</td>
+            <td class="db" onclick="numbers(9)">9</td>
+            <td class="operator">-</td>
+        </tr>
+        <tr>
+            <td class="db" onclick="numbers(4)">4</td>
+            <td class="db" onclick="numbers(5)">5</td>
+            <td class="db" onclick="numbers(6)">6</td>
+            <td class="operator">+</td>
+        </tr>
+        <tr>
+            <td class="db" onclick="numbers(1)">1</td>
+            <td class="db" onclick="numbers(2)">2</td>
+            <td class="db" onclick="numbers(3)">3</td>
+            <td rowspan="2" class="equal">=</td>
+        </tr>
+        <tr>
+            <td colspan="2" class="db" onclick="numbers(0)">0</td>
+            <td class="db">.</td>
+        </tr>
+    </table>
+
+    <script src="calc.js">
+
+    </script>
+</body>
+</html>

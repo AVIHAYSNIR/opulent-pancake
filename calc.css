@@ -1,0 +1,65 @@
+table{
+    background-color: #253650;
+    color: #fffffd;
+    border-collapse: collapse;
+    font-family: tahoma;
+}
+
+tr{
+    border: 1px solid rgb(75, 93, 117);
+}
+
+td{
+    border: 1px solid rgb(75, 93, 117);
+    width: 93px;
+    height: 89px;
+}
+
+.operator{
+    background-color: #1f7f97;
+    color: #cff9ff;
+    text-align: center;
+    font-size: large;
+}
+
+.operator:hover{
+    color: blueviolet;
+    background-color: springgreen;
+}
+
+.equal{
+    background-color: rgb(228, 128, 32);
+    color: #fbdaaf;
+    text-align: center;
+    font-size: large;
+}
+
+.equal:hover{
+    color: coral;
+    background-color: violet;
+}
+.equal:active{
+    color: aqua;
+    background-color: darkgoldenrod;
+}
+
+.db{
+    color: #677a9b;
+    text-align: center;
+    font-size: large;
+}
+.db:hover{
+    color: red;
+    background-color: aqua;
+}
+.db:active{
+    color: yellow;
+    background-color: #677a9b;
+}
+
+#display{
+    padding-right: 15px;
+    height: 118px;
+    font-size: 1.6cm;
+    text-align: right;
+}
